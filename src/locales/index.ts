@@ -18,6 +18,7 @@ import esMx from './es-MX';
 import faIr from './fa-IR';
 import frBe from './fr-BE';
 import frFr from './fr-FR';
+import arEg from './ar-EG';
 import guIn from './gu-IN';
 import hiIn from './hi-IN';
 import koKr from './ko-KR';
@@ -45,6 +46,7 @@ const LOCALES: { [key: string]: ConstructorOf<LocaleInterface> } = {
   'fa-IR': faIr,
   'fr-BE': frBe,
   'fr-FR': frFr,
+  'ar-EG': arEg,
   'gu-IN': guIn,
   'hi-IN': hiIn,
   'ko-KR': koKr,
